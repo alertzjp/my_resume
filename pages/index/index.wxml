@@ -2,11 +2,11 @@
 <view id="resume">
   <!-- 个人信息 -->
   <view id='head'>
-    <image src='../../img/bg.jpg' style='position: relation'></image>
+    <image src='../../img/bg.jpg' style='position: relation;width:100%'></image>
     <view style='position: absolute;display: flex;flex-direction: column;'>
        <text style='font-size:180%;font-weight: bold;text-align: center;padding: 5% 0;'>郑居朋</text>
-       <text style='font-size:150%;padding:7% 0;border-top:2px solid #00A982;border-bottom:2px solid #00A982;margin:3% 0'>Web前端工程师</text>
-      <view style='margin-top:8%'>
+       <text style='font-size:150%;padding:5% 0;border-top:2px solid #00A982;border-bottom:2px solid #00A982;margin:3% 0'>Web前端工程师</text>
+      <view>
       <view id='head-info'>
         <text>男 / 1993.06</text>
         <text>鄂州职业大学 • 新能源应用</text>
