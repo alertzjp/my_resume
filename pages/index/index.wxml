@@ -1,0 +1,89 @@
+<!--index.wxml-->
+<view id="resume">
+  <!-- 个人信息 -->
+  <view id='head'>
+    <image src='../../img/bg.jpg' style='position: relation'></image>
+    <view style='position: absolute;display: flex;flex-direction: column;'>
+       <text style='font-size:180%;font-weight: bold;text-align: center;padding: 5% 0;'>郑居朋</text>
+       <text style='font-size:150%;padding:7% 0;border-top:2px solid #00A982;border-bottom:2px solid #00A982;margin:3% 0'>Web前端工程师</text>
+      <view style='margin-top:8%'>
+      <view id='head-info'>
+        <text>男 / 1993.06</text>
+        <text>鄂州职业大学 • 新能源应用</text>
+        <text>2017年毕业</text>
+      </view>
+      <view id='head-icon'>
+        <text class="iconfont icon-zhuye" bindtap='copyBlog'></text>
+        <text class="iconfont icon-github" bindtap='copyGithub'></text>
+        <text class="iconfont icon-duanxin" bindtap="copyMail"></text>
+        <text class="iconfont icon-phone" bindtap='actionSheetTap'></text>
+      </view>
+    </view>
+    </view>
+
+
+    <!-- <text style='font-size:180%;font-weight: bold'>郑居朋</text>
+    <text style='font-size:150%;padding:3% 0;border-top:1px solid #00A982;border-bottom:2px solid #00A982;margin:3% 0'>Web前端工程师</text>
+    <view>
+      <view id='head-info'>
+        <text>男 / 1993.06</text>
+        <text>鄂州职业大学 • 新能源应用</text>
+        <text>2017年毕业</text>
+      </view>
+      <view id='head-icon'>
+        <text class="iconfont icon-zhuye" bindtap='copyBlog'></text>
+        <text class="iconfont icon-github" bindtap='copyGithub'></text>
+        <text class="iconfont icon-duanxin" bindtap="copyMail"></text>
+        <text class="iconfont icon-phone" bindtap='actionSheetTap'></text>
+      </view>
+    </view> -->
+  </view>
+
+
+  <view id='body'>
+    <!-- 个人技能 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>工作技能</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='skill'>技能</text>
+        <text class='tag'>掌握</text>
+
+        <view class='detail' wx:for="{{technologies}}">
+          <view>{{index+1}}）{{item}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 工作经历 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>工作经历</text>
+        <view></view>
+      </view>
+      <view wx:for="{{experiences}}">
+        <component-work-experience companyName="{{item.companyName}}" position="{{item.position}}" dateRanges="{{item.dateRanges}}" explain="{{item.explain}}">
+        </component-work-experience>
+      </view>
+    </view>
+
+    <!-- 个人介绍 -->
+    <view id='person-introduce'>
+      <view class='subtitle'>
+        <view></view>
+        <text>自我介绍</text>
+        <view></view>
+      </view>
+      <view class='introduce-content'>
+        <text>{{introduce}}</text>
+      </view>
+
+    </view>
+
+  </view>
+</view>
