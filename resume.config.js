@@ -3,7 +3,7 @@ module.exports = {
   introduce: "本人从事前端开发工作3年多，主要技术栈为vue、react、微信小程序等，有过多个vue项目开发经验，熟悉webpack、gulp等前端自动化构建工具。玩弄过nodejs,mysql，热爱前端开发，注重团队协作。",
   //技能配置项
   technologies:[
-    "研究学习 Web 前端技术三年时间,精通 HTML5、CSS3、JavaScript 等， 有多个 Web 项目和 hybrid 项目的开发经验。",
+    "研究学习 Web 前端技术六年时间,精通 HTML5、CSS3、JavaScript 等， 有多个 Web 项目和 hybrid 项目的开发经验。",
     "熟练掌握 vue 全家桶以及UI框架elementUi、iview 、vux的使用 ，掌握jquery、appcan、mui的使用，和webapck 的打包。",
     "基本掌握 react 以及UI框架 ant，了解node 和 websocket的使用，以及高德地图api和echarts图表的使用。",
     "使用辅助工具 Git、svn 项目版本管理，xshell服务端操作 , Charles抓包，Navicat数据库，Nginx配置， Photoshop切图。",

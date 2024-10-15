@@ -22,21 +22,7 @@
     </view>
 
 
-    <!-- <text style='font-size:180%;font-weight: bold'>郑居朋</text>
-    <text style='font-size:150%;padding:3% 0;border-top:1px solid #00A982;border-bottom:2px solid #00A982;margin:3% 0'>Web前端工程师</text>
-    <view>
-      <view id='head-info'>
-        <text>男 / 1993.06</text>
-        <text>鄂州职业大学 • 新能源应用</text>
-        <text>2017年毕业</text>
-      </view>
-      <view id='head-icon'>
-        <text class="iconfont icon-zhuye" bindtap='copyBlog'></text>
-        <text class="iconfont icon-github" bindtap='copyGithub'></text>
-        <text class="iconfont icon-duanxin" bindtap="copyMail"></text>
-        <text class="iconfont icon-phone" bindtap='actionSheetTap'></text>
-      </view>
-    </view> -->
+   
   </view>
 
 
